@@ -1,0 +1,36 @@
+\usepackage{amsthm} % 定理環境を定義するために必要なパッケージ
+\usepackage{braket} % 集合を記述するための`\Set'を使うために読み込むパッケージ。`\Set{~ | ~}'みたいに使う
+
+%%%%%%%%%%%%%% 定理環境 %%%%%%%%%%%%%%
+% `*'付きは「定義.」みたいに番号がつかない
+% 逆に`*'が付いていないものは「定義 1.」みたいに番号が付与される
+\theoremstyle{definition} % アルファベットが斜体にならないように
+\newtheorem*{definition*}{定義}
+\newtheorem{definition}{定義}
+\newtheorem*{proposition*}{性質}
+\newtheorem{proposition}{性質}
+\newtheorem*{lemmma*}{補題}
+\newtheorem{lemma}{補題}
+\newtheorem*{theorem*}{定理}
+\newtheorem{theorem}{定理}
+\newtheorem*{corollary*}{系}
+\newtheorem{corollary}{系}
+\newtheorem*{example*}{例}
+\newtheorem{example}{例}
+% 証明冒頭部分に出る「proof.」を「証明.」に
+\renewcommand{\proofname}{\textbf{証明}}
+
+%%%%%%%%%%%%%% 数学記号 %%%%%%%%%%%%%%
+\newcommand{\norm}[1]{\left\|#1\right\|}    % ノルムを表す。`\norm{a}'のように使う
+\newcommand{\ball}[2]{B\left(#1; #2\right)} % 球を表す。`\ball{x}{e}'のように使う
+\newcommand{\cl}{\mathop{\rm cl}\limits}    % 閉包を表す。`\cl'のように使う
+\newcommand{\abs}[1]{\left|#1\right|}       % 絶対値を表す。`\abs{a}'のように使う
+\newcommand{\mathif}[1]{\text{if }#1}       % 場合分けのif
+\newcommand{\mathelse}{\text{else}}         % 場合分けのelse
+
+%%%%%%%%%%%%%% マクロ %%%%%%%%%%%%%%
+% 図表の参照用
+\newcommand{\figref}[1]{図~\ref{fig:#1}}
+\newcommand{\figlabel}[1]{\label{fig:#1}}
+% 環境用
+\newcommand{\descitem}[1]{\item[#1]~\\}
