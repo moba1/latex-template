@@ -17,5 +17,5 @@ $ latexmk -pdfdvi -pvc main
 が必要。もしない場合は以下のコマンドを実行
 ```sh
 tlmgr update --self --all
-tlmgr install collection-langjapanese latexmk
+tlmgr install collection-langjapanese latexmk amscls graphics
 ```
