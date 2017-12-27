@@ -5,7 +5,12 @@
 ```sh
 $ latexmk -pdfdvi -pvc main
 ```
-でできる。一応MacならPDFまで開ける
+でできる。一応
+
+- Windows
+- macOS
+
+ならPDFまで開ける
 ## 注意
 コンパイルするには
 
