@@ -7,7 +7,14 @@ $ latexmk -pdfdvi -pvc main
 ```
 でできる。一応MacならPDFまで開ける
 ## 注意
-コンパイルするには`upLaTeX`と`latexmk`が必要。もしない場合は以下のコマンドを実行
+コンパイルするには
+
+- `collection-langkapanese`
+- `latexmk`
+- `amscls`
+- `graphics`
+
+が必要。もしない場合は以下のコマンドを実行
 ```sh
 tlmgr update --self --all
 tlmgr install collection-langjapanese latexmk
