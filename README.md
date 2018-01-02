@@ -18,6 +18,7 @@ $ latexmk -pdfdvi -pvc main
 - `latexmk`
 - `amscls`
 - `graphics`
+- `type1cm`
 
 が必要。もしない場合は以下のコマンドを実行
 ```sh
