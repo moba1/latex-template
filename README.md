@@ -20,9 +20,10 @@ $ latexmk -lualatex -pvc main
 - `graphics`
 - `type1cm`
 - `epstopdf`
+- `hyperref`
 
 が必要。もしない場合は以下のコマンドを実行
 ```sh
 tlmgr update --self --all
-tlmgr install collection-langjapanese latexmk amscls graphics type1cm epstopdf
+tlmgr install collection-langjapanese latexmk amscls graphics type1cm epstopdf hyperref
 ```
