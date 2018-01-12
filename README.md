@@ -3,7 +3,7 @@
 `main.tex`に書いていく。画像は`images`ディレクトリに入れる。細かいマクロの使い方は`math.sty`を見ればわかる...はず...
 ## コンパイルの仕方
 ```sh
-$ latexmk -pdfdvi -pvc main
+$ latexmk -lualatex -pvc main
 ```
 でできる。一応
 
