@@ -14,7 +14,7 @@ $ latexmk -lualatex -pvc main
 ## 注意
 コンパイルするには
 
-- `collection-langkapanese`
+- `collection-langjapanese`
 - `latexmk`
 - `amscls`
 - `graphics`
